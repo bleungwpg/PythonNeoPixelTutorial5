@@ -4,7 +4,9 @@
 import time
 import board
 import neopixel
- 
+
+# use D0 for old boards
+# use A3 for new boards
 pixpin = board.D0
 numpix = 128
 
